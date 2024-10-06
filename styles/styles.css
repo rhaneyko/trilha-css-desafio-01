@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+ .banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/images/banner.png);
+
+}
+
+.banner-content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    
+}
+
+
+.banner h1{
+    text-transform: uppercase;
+    color: #33A8DB;
+    font: 40px Raleway, sans-serif;
+    font-weight: bold;
+}
+
+.banner p{
+    color: #FFF;
+    font: 20px Raleway, sans-serif;
+}
+
+button{
+    width: 326px;
+    height: 57px;
+    
+    color: #33A8DB;
+    text-transform: uppercase;
+    font-family: "Raleway";
+
+    background: none;
+    border: 2px solid #33A8DB;
+
+    
+    }
